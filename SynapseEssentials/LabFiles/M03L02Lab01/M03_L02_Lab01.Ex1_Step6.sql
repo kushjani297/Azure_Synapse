@@ -1,0 +1,21 @@
+IF object_id('Trip_Part') IS NOT NULL DROP VIEW Trip_Part
+GO
+
+CREATE TABLE [dbo].[Trip_Part]
+WITH 
+(	DISTRIBUTION = HASH ( [MedallionID] ),
+	CLUSTERED COLUMNSTORE INDEX,  PARTITION (
+    [DateID] RANGE RIGHT FOR 
+    VALUES 
+      ( 20130101, 20130201, 20130301, 20130401, 
+        20130501, 20130601, 20130701, 20130801, 
+        20130901, 20131001, 20131101, 20131201 )  )
+) 
+AS 
+SELECT *
+FROM [dbo].[Trip_MedallionID];
+
+
+SELECT *
+FROM vCCIHealth
+WHERE Table_Name = 'Trip_Part'

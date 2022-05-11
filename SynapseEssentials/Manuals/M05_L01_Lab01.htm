@@ -1,0 +1,669 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-top:24.0pt;
+	margin-right:.1in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	page-break-before:always;
+	page-break-after:avoid;
+	font-size:20.0pt;
+	font-family:"Segoe UI",sans-serif;
+	color:#4F81BD;
+	font-weight:normal;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Segoe UI",sans-serif;
+	color:black;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:11.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:22.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-name:"List Paragraph\,Bullet List\,FooterText\,Procedure StepCxSpLast\,Procedure Step";
+	mso-style-link:"List Paragraph Char\,Bullet List Char\,FooterText Char\,Procedure StepCxSpLast Char\,Procedure Step Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	font-size:14.0pt;
+	font-family:"Segoe UI",sans-serif;
+	color:#365F91;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Segoe UI",sans-serif;
+	color:#4F81BD;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Segoe UI",sans-serif;
+	color:black;
+	font-weight:bold;}
+span.ListParagraphChar
+	{mso-style-name:"List Paragraph Char\,Bullet List Char\,FooterText Char\,Procedure StepCxSpLast Char\,Procedure Step Char";
+	mso-style-link:"List Paragraph\,Bullet List\,FooterText\,Procedure StepCxSpLast\,Procedure Step";
+	font-family:"Cambria",serif;}
+span.TaskHeadingChar
+	{mso-style-name:"Task Heading Char";
+	mso-style-link:"Task Heading";
+	font-family:"Segoe UI",sans-serif;
+	font-weight:bold;}
+p.TaskHeading, li.TaskHeading, div.TaskHeading
+	{mso-style-name:"Task Heading";
+	mso-style-link:"Task Heading Char";
+	margin-top:0in;
+	margin-right:.1in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Segoe UI",sans-serif;
+	font-weight:bold;}
+span.TaskNameChar
+	{mso-style-name:"Task Name Char";
+	mso-style-link:"Task Name";
+	font-family:"Cambria",serif;
+	color:black;
+	font-weight:bold;}
+p.TaskName, li.TaskName, div.TaskName
+	{mso-style-name:"Task Name";
+	mso-style-link:"Task Name Char";
+	margin-top:0in;
+	margin-right:.1in;
+	margin-bottom:6.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;
+	color:black;
+	font-weight:bold;}
+span.TaskDetailChar
+	{mso-style-name:"Task Detail Char";
+	mso-style-link:"Task Detail";
+	font-family:"Cambria",serif;
+	color:black;}
+p.TaskDetail, li.TaskDetail, div.TaskDetail
+	{mso-style-name:"Task Detail";
+	mso-style-link:"Task Detail Char";
+	margin-top:0in;
+	margin-right:.1in;
+	margin-bottom:6.0pt;
+	margin-left:67.5pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;
+	color:black;}
+span.ExerciseScenerioChar
+	{mso-style-name:"Exercise Scenerio Char";
+	mso-style-link:"Exercise Scenerio";
+	font-family:"Cambria",serif;}
+p.ExerciseScenerio, li.ExerciseScenerio, div.ExerciseScenerio
+	{mso-style-name:"Exercise Scenerio";
+	mso-style-link:"Exercise Scenerio Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;}
+p.paragraph, li.paragraph, div.paragraph
+	{mso-style-name:paragraph;
+	margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.normaltextrun
+	{mso-style-name:normaltextrun;}
+span.eop
+	{mso-style-name:eop;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	border:double windowtext 5.25pt;
+	padding:24.0pt 24.0pt 24.0pt 24.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink="#954F72" style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='text-align:center'><img width=624
+height=226 id="Picture 18" src="M05_L01_Lab01_files/image001.png"></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:20.0pt;line-height:115%'>Managing Workload &amp; ResultSet
+Caching</span></b></p>
+
+<p class=MsoNormal><a name="OLE_LINK4"></a><a name="OLE_LINK3"></a><a
+name="OLE_LINK2"></a><b>Introduction</b></p>
+
+<p class=MsoNormal>In this lab, you will be managing workload configuration for
+Azure Synapse SQL pool and manage resultset caching. Workload classification
+helps manage queries to run in priority based on classified importance levels
+and resource classes. ResultSet caching allows a query to be cached when the
+same query is executed multiple times while the results can be retrieved from
+the cache quickly making it useful in business intelligence applications.</p>
+
+<p class=MsoNormal><b>Estimated Time</b></p>
+
+<p class=MsoNormal>40 minutes</p>
+
+<p class=MsoNormal><b>Objectives</b></p>
+
+<p class=MsoNormal>At the end of this lab, you will be able to:</p>
+
+<p class=MsoListParagraph style='margin-left:39.0pt;text-indent:-21.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Create queries with classified priorities and </p>
+
+<p class=MsoListParagraph style='margin-left:39.0pt;text-indent:-21.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Enable ResultSet caching in SQL Data Warehouse</p>
+
+<p class=MsoNormal><b>Prerequisites</b></p>
+
+<p class=MsoListParagraph style='margin-left:39.0pt;text-indent:-21.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>An Azure subscription. See Get Azure free trial.</p>
+
+<p class=MsoListParagraph style='margin-left:39.0pt;text-indent:-21.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Supported operating system to perform this class: Windows 10 /
+Windows Server 2016</p>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+8.0pt;margin-left:39.0pt;text-indent:-21.0pt;line-height:107%'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Download and install SQL Server Management Studio</p>
+
+<b><span style='font-size:11.0pt;line-height:107%;font-family:"Cambria",serif'><br
+clear=all style='page-break-before:always'>
+</span></b>
+
+<p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+8.0pt;margin-left:39.0pt;text-indent:-21.0pt;line-height:107%'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b>&nbsp;</b></p>
+
+<p class=MsoNormal><b>Logon Information</b></p>
+
+<p class=MsoNormal>Use the following credentials to login into virtual
+environment</p>
+
+<p class=MsoListParagraph style='margin-left:39.0pt;text-indent:-21.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Username: Administrator</p>
+
+<p class=MsoListParagraph style='margin-left:39.0pt;text-indent:-21.0pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Password:&nbsp; Pa$$w0rd </p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<div style='border:solid windowtext 1.0pt;padding:1.0pt 4.0pt 1.0pt 4.0pt;
+background:#D9E2F3;margin-left:.25in;margin-right:0in'>
+
+<p class=MsoListParagraph style='margin-left:0in;background:#D9E2F3;border:
+none;padding:0in'><b><span style='color:black'>Note:</span></b><span
+style='color:black'> The labs can be performed using your laptop environment
+rather than using LOD environment.</span></p>
+
+</div>
+
+<span style='font-size:11.0pt;line-height:115%;font-family:"Cambria",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoListParagraph style='margin-bottom:0in;margin-bottom:10.0pt;
+text-indent:-.25in'><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>&nbsp;</p>
+
+<p class=MsoTocHeading><span style='font-family:"Cambria",serif'>Table of
+Contents</span></p>
+
+<p class=MsoToc2><a href="#_Toc46321838">Lab: Workload Classification and
+ResultSet Caching<span style='color:windowtext;display:none;text-decoration:
+none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>4</span></a></p>
+
+<p class=MsoToc3><a href="#_Toc46321839">Exercise 1: Implementing Workload
+Classifier<span style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>4</span></a></p>
+
+<p class=MsoToc3><a href="#_Toc46321840">Exercise 2: Enabling ResultSet Caching<span
+style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>8</span></a></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h2><a name="_Toc46321838"><span style='font-family:"Cambria",serif'>Lab:
+Workload Classification and ResultSet Caching</span></a></h2>
+
+<h3><a name="_Toc46321839"></a><a name="_Toc506917946"><span style='font-family:
+"Cambria",serif'>Exercise 1: </span></a><span style='font-family:"Cambria",serif'>Implementing
+Workload Classifier</span></h3>
+
+<p class=ExerciseScenerio>This exercise will teach how to classify queries with
+importance levels.</p>
+
+<p class=TaskHeading><span style='font-family:"Cambria",serif'>Tasks</span></p>
+
+<p class=TaskName style='margin-left:0in;text-indent:0in'>Create SQL Login for
+Executive user</p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Launch <b>SQL Server Management Studio</b> and <b>connect</b> to the SQL
+pool as <b>SQLAdmin</b> user.</p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Create a<b> new Query </b>and connect the query to <b>master</b>
+database. </p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><img width=218 height=42
+src="M05_L01_Lab01_files/image002.png"></p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b>Run</b> the following query to create a Login named Director:</p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><img width=569 height=97
+src="M05_L01_Lab01_files/image003.png"
+alt="IF NOT EXISTS (SELECT * FROM sys.sql_logins WHERE name = 'Director')&#13;&#10;BEGIN&#13;&#10;CREATE LOGIN [Director] WITH PASSWORD='P@ssword!1!'&#13;&#10;END&#13;&#10;;&#13;&#10;"></p>
+
+<p class=paragraph style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:38.4pt;text-indent:-20.4pt'><span style='font-size:11.0pt;
+font-family:"Calibri",sans-serif;color:black'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><img width=562 height=101 src="M05_L01_Lab01_files/image004.png"
+align=left hspace=12 vspace=5
+alt="IF NOT EXISTS (SELECT * FROM sys.sql_logins WHERE name = 'LargeQueryUser')&#13;&#10;BEGIN&#13;&#10;CREATE LOGIN [LargeQueryUser] WITH PASSWORD='P@ssword!1!'&#13;&#10;END&#13;&#10;;&#13;&#10;"><span
+class=normaltextrun><span style='font-size:11.0pt;font-family:"Cambria",serif;
+color:black'>Run&nbsp;the following query to create&nbsp;a new Login named
+LargeQueryUser:&nbsp;</span></span></p>
+
+<p class=paragraph style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.5in;vertical-align:baseline'>&nbsp;</p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Create a <b>new Query</b> and connect to the SQL pool as <b>SQLAdmin to
+your SQL Pool from previous labs</b>.</p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><img width=211 height=33
+id="Picture 4" src="M05_L01_Lab01_files/image005.jpg"> </p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b>Run</b> the following query to create a user for the Login named
+Director:</p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><img width=625 height=97
+src="M05_L01_Lab01_files/image006.png"
+alt="IF NOT EXISTS (SELECT * FROM sys.database_principals WHERE name = 'Director')&#13;&#10;BEGIN&#13;&#10;CREATE USER [Director] FOR LOGIN [Director]&#13;&#10;END&#13;&#10;;&#13;&#10;"></p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b>Run</b> the following query to assign a data reader role to the
+Director user:</p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><img width=415 height=38
+src="M05_L01_Lab01_files/image007.png"
+alt="exec sp_addrolemember 'db_datareader', 'Director'"></p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>8.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b>Run</b> the following query to the workload classification for the
+user Director:</p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><img width=376 height=97
+src="M05_L01_Lab01_files/image008.png"
+alt="CREATE WORKLOAD CLASSIFIER [wkldclsDirector]&#13;&#10;WITH (WORKLOAD_GROUP = 'xlargerc'&#13;&#10;      ,MEMBERNAME = 'Director'&#13;&#10;      ,IMPORTANCE = HIGH);&#13;&#10;"></p>
+
+<p class=paragraph style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.25in;vertical-align:baseline'><span class=normaltextrun><span
+style='font-size:11.0pt;font-family:"Cambria",serif;color:black'>&nbsp;</span></span></p>
+
+<p class=paragraph style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:38.4pt;text-indent:-20.4pt;vertical-align:baseline'><span
+style='font-size:11.0pt;font-family:"Cambria",serif;color:black'>9.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span class=normaltextrun><b><span style='font-size:11.0pt;
+font-family:"Cambria",serif;color:black'>Run</span></b></span><span
+class=normaltextrun><span style='font-size:11.0pt;font-family:"Cambria",serif;
+color:black'> the following code to&nbsp;create a new database user for the
+LargeQueryUser Login:</span></span><span class=eop><span style='font-size:11.0pt;
+font-family:"Cambria",serif;color:black'>&nbsp;</span></span></p>
+
+<p class=paragraph style='margin-top:0in;margin-right:6.75pt;margin-bottom:
+0in;margin-left:38.25pt;vertical-align:baseline'><span class=eop><span
+style='font-size:11.0pt;font-family:"Cambria",serif;color:black'>&nbsp;</span></span></p>
+
+<p class=paragraph style='margin-top:0in;margin-right:6.75pt;margin-bottom:
+0in;margin-left:38.25pt;vertical-align:baseline'><img width=546 height=102
+src="M05_L01_Lab01_files/image009.png" align=left hspace=12 vspace=5
+alt="CREATE USER LargeQueryUser FOR LOGIN LargeQueryUser;&#13;&#10;GRANT CONTROL ON DATABASE ::&lt;NYCTaxi&gt; to LargeQueryUser;&#13;&#10;Exec sp_addrolemember 'xlargeRC', 'LargeQueryUser';&#13;&#10;&#13;&#10;"><span
+class=normaltextrun><b><span style='font-size:11.0pt;font-family:"Cambria",serif;
+color:black;background:#DEEAF6'>Note:</span></b></span><span
+class=normaltextrun><span style='font-size:11.0pt;font-family:"Cambria",serif;
+color:black;background:#DEEAF6'> Replace the &lt; NYCTaxi&gt; in the statement
+with the&nbsp;Synapse SQL&nbsp;pool name.</span></span><span class=eop><span
+style='font-size:11.0pt;font-family:"Cambria",serif;color:black'>&nbsp;</span></span></p>
+
+<p class=paragraph style='margin-top:0in;margin-right:6.75pt;margin-bottom:
+0in;margin-left:38.25pt'><span class=eop><span style='font-size:11.0pt;
+font-family:"Cambria",serif;color:black'>&nbsp;</span></span></p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'><span
+class=eop>10.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+class=normaltextrun><span style='color:#171717'>Check the SLO for the SQL pool,
+it must be DW100c, please scale the SQL Pool if needed.</span></span></p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>11.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span><img width=549
+height=309 src="M05_L01_Lab01_files/image010.png" align=left hspace=12
+vspace=5
+alt="SELECT G.geographyid,T.TimeID,P.PassengerCount,&#13;&#10;	  PERCENTILE_CONT (0.5) WITHIN GROUP ( ORDER BY P.PassengerCount DESC)  OVER (PARTITION BY T.TimeID) AS TTT   ,&#13;&#10;      SUM(P.TripDistanceMiles) as SumTripDistance,&#13;&#10;      AVG(P.TripDistanceMiles) as AvgTripDistance,&#13;&#10;      SUM(P.FareAmount) as SumFareAmount,&#13;&#10;      AVG(P.FareAmount) as AvgFareAmount,&#13;&#10;      SUM(P.TaxAmount) as SumTaxAmount,&#13;&#10;      AVG(P.TaxAmount) as AvgTaxAmount,&#13;&#10;      SUM(P.TotalAmount) as SumTotalAmount,&#13;&#10;      AVG(P.TotalAmount) as AvgTotalAmount&#13;&#10;FROM  dbo.Trip P&#13;&#10;	INNER JOIN [dbo].[Geography] G&#13;&#10;		ON P.pickupgeographyid = G.geographyid&#13;&#10;	INNER JOIN [dbo].[Time] T&#13;&#10;		ON T.TimeID = P.PickupTimeId&#13;&#10;GROUP BY P.PassengerCount,G.geographyid,T.TimeID&#13;&#10;&#13;&#10;"><b><u>Open
+4 New query windows</u></b> against your Synapse SQL pool using the <b>SQLAdmin</b>
+user. <span style='color:#171717'>For each query window, paste the code below.
+Don’t run the code yet.</span><br>
+<br>
+</p>
+
+<p class=TaskDetail style='margin-left:38.4pt'>&nbsp;</p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>12.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span>Create a new <b>query</b>
+and <b>connect</b> as <b>LargeQueryUser</b> user. <b>Run</b> the following
+query:</p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><img width=335 height=43
+src="M05_L01_Lab01_files/image011.png"
+alt="ALTER INDEX ALL ON [dbo].[Trip] REBUILD&#13;&#10;&#13;&#10;"></p>
+
+<p class=TaskDetail style='margin-top:0in;margin-right:.1in;margin-bottom:8.0pt;
+margin-left:38.4pt;text-indent:-20.4pt;line-height:107%'>13.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span><b>Run</b> the
+queries opened in step <b>(11)</b> in parallel. </p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>14.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span>Create another
+new <b>query</b> and <b>connect</b> as <b>Director</b> user. <b>Type</b> in the
+following query and <b>run</b>:</p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><img width=625 height=307
+src="M05_L01_Lab01_files/image012.png"
+alt="SELECT G.geographyid,T.TimeID,P.PassengerCount,&#13;&#10;	  PERCENTILE_CONT (0.5) WITHIN GROUP ( ORDER BY P.PassengerCount DESC)  OVER (PARTITION BY T.TimeID) AS TTT   ,&#13;&#10;      SUM(P.TripDistanceMiles) as SumTripDistance,&#13;&#10;      AVG(P.TripDistanceMiles) as AvgTripDistance,&#13;&#10;      SUM(P.FareAmount) as SumFareAmount,&#13;&#10;      AVG(P.FareAmount) as AvgFareAmount,&#13;&#10;      SUM(P.TaxAmount) as SumTaxAmount,&#13;&#10;      AVG(P.TaxAmount) as AvgTaxAmount,&#13;&#10;      SUM(P.TotalAmount) as SumTotalAmount,&#13;&#10;      AVG(P.TotalAmount) as AvgTotalAmount&#13;&#10;FROM  dbo.Trip P&#13;&#10;	INNER JOIN [dbo].[Geography] G&#13;&#10;		ON P.pickupgeographyid = G.geographyid&#13;&#10;	INNER JOIN [dbo].[Time] T&#13;&#10;		ON T.TimeID = P.PickupTimeId&#13;&#10;GROUP BY P.PassengerCount,G.geographyid,T.TimeID&#13;&#10;&#13;&#10;"> </p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>15.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span>Create another
+new <b>query</b> and connect as <b>SQLAdmin</b> user. Type in the following
+query and <b>run</b>:</p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><img width=625 height=195
+src="M05_L01_Lab01_files/image013.png"
+alt="  SELECT r.request_id, r.command, r.importance, r.resource_class, r.status, rw.concurrency_slots_used, s.login_name, rw.request_time&#13;&#10;  FROM sys.dm_pdw_exec_requests r &#13;&#10;  JOIN sys.dm_pdw_resource_waits rw on rw.request_id = r.request_id&#13;&#10;  JOIN sys.dm_pdw_exec_sessions s on rw.request_id = s.request_id&#13;&#10;WHERE ((r.[status] = 'Running' AND r.resource_class IS NOT NULL ) &#13;&#10;   OR r.[status] ='Suspended')&#13;&#10;  AND rw.[type] ='ConcurrencyResourceType'&#13;&#10;  ORDER BY rw.request_time&#13;&#10;&#13;&#10;"></p>
+
+<span style='font-size:11.0pt;line-height:107%;font-family:"Cambria",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal style='margin-bottom:8.0pt;line-height:107%'><span
+style='color:black'>&nbsp;</span></p>
+
+<p class=TaskDetail style='margin-left:38.4pt'>Notice that the last submitted
+query by the Director is in suspended state:</p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><img width=611 height=88
+id="Picture 1" src="M05_L01_Lab01_files/image014.jpg"></p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>16.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span>Notice the
+queries are being executed and some are in suspended state. The suspended
+queries are the ones that is waiting for the concurrency slots to be released
+by the earlier submitted queries. </p>
+
+<p class=TaskDetail style='margin-left:38.4pt'>Since the Synapse SQL pool is
+running at DWU100c tier, there are four (4) concurrency slots granted. When all
+the concurrency slots are used, later queries submitted needs to wait.</p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>17.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span>Run the query in
+step (15) above again and review the query that is running now. Notice that the
+status for the last query submitted by Director is running while the query
+submitted by SQLAdmin is in suspended, note the request time where the
+Director’s query was submitted later that the SQLAdmin’s. </p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><img width=624 height=81
+src="M05_L01_Lab01_files/image015.jpg"></p>
+
+<p class=TaskDetail style='margin-left:0in'><b>Note: </b>This is the concept of
+Workload Classification. In an ever-growing data warehousing workload for
+concurrent workloads submitted users, this is another way to manage the user
+queries based on their priorities. Learn more about Workload Classification <a
+href="https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-workload-classification">here</a>.</p>
+
+<p class=TaskDetail style='margin-left:0in'>&nbsp;</p>
+
+<p class=TaskDetail style='margin-left:0in'><i>Exercise 1 has been completed.</i></p>
+
+<p class=TaskDetail style='margin-left:0in'><i>&nbsp;</i></p>
+
+<span style='font-size:11.0pt;line-height:107%;font-family:"Cambria",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal style='margin-bottom:8.0pt;line-height:107%'><b><span
+style='font-size:16.0pt;line-height:107%;color:black'>&nbsp;</span></b></p>
+
+<h3><a name="_Toc46321840"><span style='font-family:"Cambria",serif'>Exercise
+2: Enabling ResultSet Caching</span></a></h3>
+
+<p class=ExerciseScenerio>This exercise will teach how to enable ResultSet
+caching.</p>
+
+<p class=TaskHeading><span style='font-family:"Cambria",serif'>Tasks</span></p>
+
+<p class=TaskName style='margin-left:0in;text-indent:0in'>Enabling ResultSet
+Caching</p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Launch <b>SQL Server Management Studio</b> and <b>connect</b> as <b>SQLAdmin</b>
+user to the Synapse SQL pool.</p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Create a <b>new Query</b> and connect the query to <b>master</b>
+database. <b>Run</b> the following query in the master database to ensure the
+resultset caching is not enabled for the SQL Data Warehouse instance, yet:</p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><img border=0 width=319
+height=71 src="M05_L01_Lab01_files/image016.png"
+alt="SELECT name, is_result_set_caching_on&#13;&#10;FROM sys.databases;&#13;&#10;&#13;&#10;"></p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Create a<b> new Query </b>and <b>connect</b> the query to <b>Synapse SQL
+pool</b>. <b>Run</b> the following query and note down the duration taken to
+execute the query:</p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><img border=0 width=625
+height=338 src="M05_L01_Lab01_files/image017.png"
+alt="SELECT CURRENT_USER, G.geographyid,T.TimeID,P.PassengerCount,&#13;&#10;	  PERCENTILE_CONT (0.5) WITHIN GROUP ( ORDER BY P.PassengerCount DESC)  OVER (PARTITION BY T.TimeID) AS TTT   ,&#13;&#10;      SUM(P.TripDistanceMiles) as SumTripDistance,&#13;&#10;      AVG(P.TripDistanceMiles) as AvgTripDistance,&#13;&#10;      SUM(P.FareAmount) as SumFareAmount,&#13;&#10;      AVG(P.FareAmount) as AvgFareAmount,&#13;&#10;      SUM(P.TaxAmount) as SumTaxAmount,&#13;&#10;      AVG(P.TaxAmount) as AvgTaxAmount,&#13;&#10;      SUM(P.TotalAmount) as SumTotalAmount,&#13;&#10;      AVG(P.TotalAmount) as AvgTotalAmount&#13;&#10;FROM  dbo.Trip P&#13;&#10;	INNER JOIN [dbo].[Geography] G&#13;&#10;		ON P.pickupgeographyid = G.geographyid&#13;&#10;	INNER JOIN [dbo].[Time] T&#13;&#10;		ON T.TimeID = P.PickupTimeId&#13;&#10;GROUP BY P.PassengerCount,G.geographyid,T.TimeID&#13;&#10;OPTION (label = 'ResultSet')&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;"></p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Open the query window from <b>step (2) </b>above, <b>type</b> in the
+following query and<b> run. </b><b><u><span style='color:red'>Replace <i>SQLpool</i>
+with</span></u></b><span style='color:red'> </span>the name of your actual data
+warehouse instance. </p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><span class=normaltextrun><b><span
+style='color:black;background:#DEEAF6'>Note:</span></b></span><span
+class=normaltextrun><span style='color:black;background:#DEEAF6'> Make sure  to
+run the below query against master database </span></span></p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><img border=0 width=231
+height=61 src="M05_L01_Lab01_files/image018.png"
+alt="ALTER DATABASE SQLpool&#13;&#10;SET RESULT_SET_CACHING ON;&#13;&#10;&#13;&#10;"></p>
+
+<span style='font-size:11.0pt;line-height:107%;font-family:"Cambria",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal style='margin-bottom:8.0pt;line-height:107%'>Run the same
+query opened in <b>step (3)</b> above. Did the query return results quickly?</p>
+
+<p class=TaskDetail style='margin-left:38.4pt'>Since this is the first run
+right after enabling result set caching over the SQL Data Warehouse instance,
+the query will not be returned from cache. Subsequent runs of the same query
+will hit the cache.</p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Subsequently, <b>run</b> the same query opened in <b>step (3)</b> again.
+Did the query return results under a second?</p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b>Run</b> the following query and notice the column result_cache_hit
+with 1 for the same query and the total_elapsed_time:</p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><span class=normaltextrun><b><span
+style='color:black;background:#DEEAF6'>Note:</span></b></span><span
+class=normaltextrun><span style='color:black;background:#DEEAF6'> Make sure  to
+run the below query against your  Synapse SQL&nbsp;pool </span></span></p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><img border=0 width=263
+height=61 src="M05_L01_Lab01_files/image019.png"
+alt="SELECT *&#13;&#10;FROM sys.dm_pdw_exec_requests&#13;&#10;WHERE [label] like 'ResultSet'&#13;&#10;"></p>
+
+<p class=TaskDetail style='margin-left:38.4pt;text-indent:-20.4pt'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b>Run</b> the following query to understand the query plan for the
+“fast” query return in step (6) above:</p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><img border=0 width=440
+height=117 src="M05_L01_Lab01_files/image020.png"
+alt="SELECT *  &#13;&#10;FROM sys.dm_pdw_request_steps rs&#13;&#10;JOIN sys.dm_pdw_exec_requests er&#13;&#10;ON rs.request_id = er.request_id &#13;&#10;WHERE [label] = 'ResultSet' and result_cache_hit = 1&#13;&#10;&#13;&#10;"></p>
+
+<p class=TaskDetail style='margin-left:38.4pt'>Notice that there is only one
+return operation. Also, note down the command text.</p>
+
+<p class=TaskDetail style='margin-left:38.4pt'><img border=0 width=388
+height=78 id="Picture 17" src="M05_L01_Lab01_files/image021.jpg"></p>
+
+<p class=TaskDetail style='margin-left:38.4pt'>This concludes that the query
+executed is being read from a cached database. The result set caching feature
+helps improving the performance of repeatedly executing queries by caching the
+result set. This particularly adds great benefit for business intelligence
+applications when the same data is being fetched over data refresh or partition
+processing for Analysis Services models.</p>
+
+<p class=TaskDetail style='margin-left:0in'>&nbsp;</p>
+
+<p class=TaskDetail style='margin-left:0in'><i>Exercise 2 has been completed.</i></p>
+
+<p class=TaskDetail style='margin-left:0in'>&nbsp;</p>
+
+<div style='border:solid windowtext 1.0pt;padding:1.0pt 4.0pt 1.0pt 4.0pt;
+background:#D9E2F3;margin-left:0in;margin-right:.1in'>
+
+<p class=TaskDetail style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;background:#D9E2F3;border:none;padding:0in'><b>Important:</b>
+Please pause your Synapse SQL Pool upon completing this lab. Do resume the SQL
+Pool instance when you start working with the exercises. This is to prevent
+from reaching the credit limit throughout the workshop.</p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

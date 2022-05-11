@@ -1,0 +1,526 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Yu Mincho";}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Yu Gothic Light";
+	panose-1:2 11 3 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@Yu Mincho";}
+@font-face
+	{font-family:"\@Yu Gothic Light";}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Segoe UI",sans-serif;
+	color:black;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:11.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:22.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-name:"List Paragraph\,Bullet List\,FooterText\,Procedure StepCxSpLast\,Procedure Step";
+	mso-style-link:"List Paragraph Char\,Bullet List Char\,FooterText Char\,Procedure StepCxSpLast Char\,Procedure Step Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	font-size:14.0pt;
+	font-family:"Segoe UI",sans-serif;
+	color:#365F91;
+	font-weight:bold;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Segoe UI",sans-serif;
+	color:black;
+	font-weight:bold;}
+span.ListParagraphChar
+	{mso-style-name:"List Paragraph Char\,Bullet List Char\,FooterText Char\,Procedure StepCxSpLast Char\,Procedure Step Char";
+	mso-style-link:"List Paragraph\,Bullet List\,FooterText\,Procedure StepCxSpLast\,Procedure Step";
+	font-family:"Cambria",serif;}
+span.TaskHeadingChar
+	{mso-style-name:"Task Heading Char";
+	mso-style-link:"Task Heading";
+	font-family:"Segoe UI",sans-serif;
+	font-weight:bold;}
+p.TaskHeading, li.TaskHeading, div.TaskHeading
+	{mso-style-name:"Task Heading";
+	mso-style-link:"Task Heading Char";
+	margin-top:0in;
+	margin-right:.1in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Segoe UI",sans-serif;
+	font-weight:bold;}
+span.TaskNameChar
+	{mso-style-name:"Task Name Char";
+	mso-style-link:"Task Name";
+	font-family:"Cambria",serif;
+	color:black;
+	font-weight:bold;}
+p.TaskName, li.TaskName, div.TaskName
+	{mso-style-name:"Task Name";
+	mso-style-link:"Task Name Char";
+	margin-top:0in;
+	margin-right:.1in;
+	margin-bottom:6.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;
+	color:black;
+	font-weight:bold;}
+span.TaskDetailChar
+	{mso-style-name:"Task Detail Char";
+	mso-style-link:"Task Detail";
+	font-family:"Cambria",serif;
+	color:black;
+	font-weight:normal;}
+p.TaskDetail, li.TaskDetail, div.TaskDetail
+	{mso-style-name:"Task Detail";
+	mso-style-link:"Task Detail Char";
+	margin-top:0in;
+	margin-right:.1in;
+	margin-bottom:6.0pt;
+	margin-left:67.5pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;
+	color:black;}
+span.CompletionMessageChar
+	{mso-style-name:"Completion Message Char";
+	mso-style-link:"Completion Message";
+	font-family:"Cambria",serif;
+	font-style:italic;}
+p.CompletionMessage, li.CompletionMessage, div.CompletionMessage
+	{mso-style-name:"Completion Message";
+	mso-style-link:"Completion Message Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Cambria",serif;
+	font-style:italic;}
+.MsoChpDefault
+	{font-size:10.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	border:double windowtext 5.25pt;
+	padding:24.0pt 24.0pt 24.0pt 24.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='text-align:center'><img width=624
+height=226 id="Picture 9" src="M05_L02_Lab02_files/image001.gif"></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:22.0pt;line-height:115%'>Monitoring Synapse SQL pool usage
+through Azure Metric Explorer</span></b></p>
+
+<p class=MsoNormal><b>Introduction</b></p>
+
+<p class=MsoNormal>This lab introduces students to Azure Monitor, Diagnostic
+Logs and the Query Store which can be leveraged to monitor Azure Synapse SQL.</p>
+
+<p class=MsoNormal><b>Estimated Time</b></p>
+
+<p class=MsoNormal>15 minutes</p>
+
+<p class=MsoNormal><b>Objectives</b></p>
+
+<p class=MsoNormal>At the end of this lab, you will be able to:</p>
+
+<p class=MsoListParagraph style='margin-left:37.2pt;text-indent:-19.2pt'><span
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Use Azure Monitor to configure charts to monitor the metrics of
+your Azure Synapse SQL.</p>
+
+<p class=MsoNormal><b>Prerequisites</b></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>An Azure subscription. See Get Azure free trial.</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Supported operating system to perform this class: Windows 10 / Windows
+Server 2016</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Download and install Visual Studio with option “Data Storage and
+processing</p>
+
+<b><span style='font-size:11.0pt;line-height:115%;font-family:"Cambria",serif'><br
+clear=all style='page-break-before:always'>
+</span></b>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoNormal><b>Logon Information</b></p>
+
+<p class=MsoNormal>Use the following credentials to login into virtual
+environment</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Username: Administrator</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
+Symbol'>·</span><span style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Password:&nbsp; Pa$$w0rd</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<div style='border:solid windowtext 1.0pt;padding:1.0pt 4.0pt 1.0pt 4.0pt;
+background:#D9E2F3;margin-left:.25in;margin-right:0in'>
+
+<p class=MsoListParagraph style='margin-left:0in;background:#D9E2F3;border:
+none;padding:0in'><b><span style='color:black'>Note:</span></b><span
+style='color:black'> The labs can be performed using your laptop environment
+rather than using LOD environment.</span></p>
+
+</div>
+
+<span style='font-size:11.0pt;line-height:115%;font-family:"Cambria",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoListParagraph style='margin-bottom:0in;margin-bottom:10.0pt;
+text-indent:-.25in'><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>&nbsp;</p>
+
+<p class=MsoTocHeading>Table of Contents</p>
+
+<p class=MsoToc2><a href="#_Toc46499817">Lab: Monitoring Tools<span
+style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>5</span></a></p>
+
+<p class=MsoToc3><a href="#_Toc46499818">Exercise 1: Resource Monitoring with
+Azure Monitor<span style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>5</span></a></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<span style='font-size:11.0pt;line-height:115%;font-family:"Cambria",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-size:20.0pt;line-height:115%;font-family:
+"Segoe UI",sans-serif;color:#00B0F0'>&nbsp;<a name="_Toc2251303"></a><a
+name="_Toc46499817">Lab: Monitoring Tools</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+
+<p class=MsoNormal>You will start the lab by connecting to your Synapse SQL.&nbsp;
+To get started, you’ll connect to the Azure Portal and open your <b>Synapse SQL
+pool </b>which you created in previous lessons.&nbsp; </p>
+
+<h3><a name="_Toc2251304"></a><a name="_Toc46499818">Exercise 1: Resource
+Monitoring with Azure Monitor</a></h3>
+
+<p class=MsoNormal><a name="_Hlk506806054">In this exercise you will learn how
+to use metrics to determine the load on your Synapse SQL pool.</a></p>
+
+<p class=TaskHeading>Tasks</p>
+
+<p class=TaskName style='margin-left:55.8pt;text-indent:-19.8pt'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Connect to the Azure Portal</p>
+
+<p class=TaskName style='margin-left:55.8pt;text-indent:0in'><span
+style='font-weight:normal'>Open Internet Explorer and connect to the Azure
+portal at </span><a href="https://portal.azure.com"><span style='font-weight:
+normal'>https://portal.azure.com</span></a></p>
+
+<p class=TaskName style='margin-left:55.8pt;text-indent:-19.8pt'><a
+name="_Hlk2247925">2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Go to Resource Groups</a></p>
+
+<p class=TaskName style='margin-left:55.8pt;text-indent:0in'><span
+style='font-weight:normal'>On the </span>Home <span style='font-weight:normal'>page
+search and select </span>Resource Groups<span style='font-weight:normal'> </span></p>
+
+<p class=TaskName style='margin-left:55.8pt;text-indent:0in'><img border=0
+width=496 height=98 id="Picture 1117877093"
+src="M05_L02_Lab02_files/image002.gif"><br>
+ &nbsp;    </p>
+
+<p class=TaskName style='margin-left:.5in;text-indent:0in'><span
+style='font-weight:normal'>Select the Resource Group that contains your Synapse
+SQL pool</span></p>
+
+<p class=TaskName style='margin-left:.5in;text-indent:0in'><img border=0
+width=480 height=98 id="Picture 458452397"
+src="M05_L02_Lab02_files/image003.gif"></p>
+
+<p class=TaskName style='margin-left:.5in;text-indent:0in'>&nbsp;</p>
+
+<p class=TaskName style='margin-left:.5in;text-indent:0in'><br>
+<br>
+</p>
+
+<span style='font-size:11.0pt;line-height:115%;font-family:"Cambria",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:.5in'>&nbsp;</p>
+
+<p class=TaskName style='margin-left:55.8pt;text-indent:-19.8pt'><span
+style='color:black'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Select your Synapse SQL pool, created in module 1</p>
+
+<p class=TaskName style='margin-left:55.8pt;text-indent:0in'><span
+style='font-weight:normal'>Select the Synapse SQL pool. </span><br>
+<i><span style='font-weight:normal'>The following image might differ from your list
+of SQL pool</span></i><span style='font-weight:normal'>.</span></p>
+
+<p class=TaskName style='margin-left:55.8pt;text-indent:0in'><img border=0
+width=497 height=219 id="Picture 408355708"
+src="M05_L02_Lab02_files/image004.gif"></p>
+
+<p class=TaskDetail style='margin-left:53.25pt'>&nbsp;</p>
+
+<p class=TaskName style='margin-left:55.8pt;text-indent:-19.8pt'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Select Metrics</p>
+
+<p class=TaskName style='margin-left:.5in;text-indent:0in'><span
+style='font-weight:normal'>Click on Metrics under Monitoring.</span></p>
+
+<p class=TaskName style='margin-left:.5in;text-indent:0in'><img border=0
+width=501 height=365 id="Picture 1301413661"
+src="M05_L02_Lab02_files/image005.gif"></p>
+
+<span style='font-size:11.0pt;line-height:115%;font-family:"Cambria",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=TaskName style='margin-left:55.8pt;text-indent:-19.8pt'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Monitor CPU Percentage Metric</p>
+
+<p class=TaskName style='margin-left:55.8pt;text-indent:0in'>Click<span
+style='font-weight:normal'> on the “Metric” dropdown and select “CPU
+Percentage”.</span><br>
+<br>
+</p>
+
+<p class=TaskDetail style='margin-left:53.25pt'><img border=0 width=467
+height=233 id="Picture 31" src="M05_L02_Lab02_files/image006.jpg"><br>
+<br>
+</p>
+
+<p class=TaskDetail style='margin-left:53.25pt'>This will display the CPU
+percentage (Avg) chart for the last 24 hours.</p>
+
+<p class=TaskName style='margin-left:55.8pt;text-indent:-19.8pt'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Monitor Data IO Percentage Metric</p>
+
+<p class=TaskName style='margin-left:55.8pt;text-indent:0in'>Click<span
+style='font-weight:normal'> on “Add Metric” to add a new metric to monitor.<br>
+<br>
+</span></p>
+
+<p class=TaskName style='text-indent:0in'><img border=0 width=100 height=32
+id="Picture 30" src="M05_L02_Lab02_files/image007.jpg"><br>
+<br>
+</p>
+
+<p class=TaskDetail style='margin-left:53.25pt'>In the “Metric” dropdown, <b>click</b>
+on “Data IO Percentage”.<br>
+<br>
+</p>
+
+<p class=TaskDetail style='margin-left:53.25pt'><img border=0 width=527
+height=263 id="Picture 29" src="M05_L02_Lab02_files/image008.jpg"><br>
+<br>
+</p>
+
+<span style='font-size:11.0pt;line-height:115%;font-family:"Cambria",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoListParagraph style='margin-left:55.8pt;text-indent:-19.8pt'><b>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></b>Adjusting the Time Range for your Chart</p>
+
+<p class=TaskName style='margin-left:55.8pt;text-indent:0in'><span
+style='font-weight:normal'>Click on the time range dropdown to adjust the time
+range for your chart.<br>
+<br>
+</span></p>
+
+<p class=TaskName style='text-indent:0in'><img border=0 width=423 height=155
+id="Picture 27" src="M05_L02_Lab02_files/image009.jpg"><br>
+<br>
+</p>
+
+<p class=TaskDetail style='margin-left:53.25pt'>Change the time range from
+“Last 24 hours” to “Last hour” and click “<b>Apply</b>”.<br>
+<br>
+</p>
+
+<p class=TaskDetail style='margin-left:53.25pt'><img border=0 width=297
+height=219 id="Picture 21" src="M05_L02_Lab02_files/image010.jpg"><br>
+<br>
+</p>
+
+<p class=TaskDetail style='margin-left:53.25pt'>Observe the change to data
+range in your chart.<br>
+<br>
+</p>
+
+<p class=CompletionMessage style='margin-left:53.25pt'><img border=0 width=369
+height=148 id="Picture 19" src="M05_L02_Lab02_files/image011.jpg"><br>
+<br>
+</p>
+
+<span style='font-size:11.0pt;line-height:115%;font-family:"Cambria",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal><i><span style='font-size:12.0pt;line-height:115%'>&nbsp;</span></i></p>
+
+<p class=CompletionMessage style='margin-left:53.25pt'>&nbsp;</p>
+
+<p class=TaskName style='margin-left:55.8pt;text-indent:-19.8pt'>8.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Adding Additional Charts for monitoring</p>
+
+<p class=TaskName style='margin-left:55.8pt;text-indent:0in'>Click<span
+style='font-weight:normal'> on “+ New chart” to add a new chart.<br>
+<br>
+</span></p>
+
+<p class=TaskName style='text-indent:0in'><img border=0 width=299 height=115
+id="Picture 18" src="M05_L02_Lab02_files/image012.jpg"><br>
+<br>
+</p>
+
+<p class=TaskName style='text-indent:0in'><span style='font-weight:normal'>This
+will create add a new chart, where you can select additional metrics to
+monitor.</span></p>
+
+<p class=CompletionMessage>&nbsp;</p>
+
+<div style='border:solid windowtext 1.0pt;padding:1.0pt 4.0pt 1.0pt 4.0pt;
+background:#DEEAF6;margin-left:0in;margin-right:.1in'>
+
+<p class=TaskDetail style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;background:#DEEAF6;border:none;padding:0in'><b>Important:</b>
+Please pause your Synapse SQL Pool upon completing this lab. Do resume the SQL
+Pool instance when you start working with the exercises. This is to prevent
+from reaching the credit limit throughout the workshop.</p>
+
+</div>
+
+<p class=CompletionMessage>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>
